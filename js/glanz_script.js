@@ -459,13 +459,13 @@
 
 
 	/*Scroll Effect*/
-	$('.gla_go').on("click", function(e){
-		var anchor = $(this);
-		$('html, body').stop().animate({
-			scrollTop: $(anchor.attr('href')).offset().top
-		}, 300);
-		e.preventDefault();
-	});
+	// $('.gla_go').on("click", function(e){
+	// 	var anchor = $(this);
+	// 	$('html, body').stop().animate({
+	// 		scrollTop: $(anchor.attr('href')).offset().top
+	// 	}, 300);
+	// 	e.preventDefault();
+	// });
 
 	/*Animation Block Delay*/
 	
