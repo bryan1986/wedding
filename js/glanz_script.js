@@ -173,12 +173,16 @@
 	}); 
 
 
-	
+	$(document).ready(function(){
+
+    $.LoadingOverlay("show");
+
+	});
 	
 
 
 	$(window).load(function(){
-
+		$.LoadingOverlay("hide");
 			// Page loader
 	        
 	    $("body").imagesLoaded(function(){
