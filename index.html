@@ -581,8 +581,28 @@
             
             
             <div class="container text-center">
-                <h2>The Day They Got Engaged</h2>
-                <p>Andy and Jeska met in university in the Graphic Design program. They both remember each other from orientation, but it wasn’t love at first sight, that’s for sure. Andy remembers Jeska as a ‘snooty art bitch (having been in the visual arts program at the time), and she remembers Andy being an ‘arrogant computer nerd’, boasting his knowledge of Macs over the other students.</p>
+                <h2>오시는 길</h2>
+                <p>더컨벤션 송파문정점 아모르홀<br />서울특별시 송파구 문정동 325-6</p>
+
+                <!-- * 카카오맵 - 지도퍼가기 -->
+                <!-- 1. 지도 노드 -->
+                <div id="daumRoughmapContainer1630849784250" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+                <!--
+                    2. 설치 스크립트
+                    * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+                -->
+                <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                <!-- 3. 실행 스크립트 -->
+                <script charset="UTF-8">
+                    new daum.roughmap.Lander({
+                        "timestamp" : "1630849784250",
+                        "key" : "2795f",
+                        "mapWidth" : "640",
+                        "mapHeight" : "360"
+                    }).render();
+                </script>
                 
                 <!-- filters -->
                 <div class="button-group filter-button-group">
