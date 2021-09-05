@@ -3412,7 +3412,7 @@ video#video_background  {
 	margin: 0 30px;
 }
 .countdown-amount {
-	font: 400 40px/60px Playfair Display, Dosis, Arial;
+	font: 400 20px/30px Playfair Display, Dosis, Arial;
 	display: block;
 }
 .gla_countdown_gold .countdown-amount {
