@@ -43,12 +43,12 @@
   $('.date_picker').datepicker();
 
     /*Gallery Lightbox*/
-	$('.lightbox').magnificPopup({ 
-	  type: 'image',
-	  gallery:{
-	    enabled:true
-	  }
-	});
+	// $('.lightbox').magnificPopup({ 
+	//   type: 'image',
+	//   gallery:{
+	//     enabled:true
+	//   }
+	// });
 	$('.video').magnificPopup({
 	  type: 'iframe',
 	  iframe: {
