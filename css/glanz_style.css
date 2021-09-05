@@ -2448,7 +2448,7 @@ ul.mega-menu {
 			margin-bottom: 20px;
 		}
 			.gla_slide_midtitle {
-				font:900 80px/80px 'Nanum Brush Script', cursive;
+				font:900 60px/60px 'Nanum Brush Script', cursive;
 				margin-bottom: 30px;
 			}
 			.gla_slide_title b {
@@ -5899,7 +5899,7 @@ footer {
 	}
 
 .gla_section .container {
-	padding-top: 56px;
+	/*padding-top: 56px;*/
 	padding-bottom: 46px;
 }
 
