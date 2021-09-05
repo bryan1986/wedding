@@ -596,10 +596,12 @@
 
                 <!-- 3. 실행 스크립트 -->
                 <script charset="UTF-8">
+                    var width = '"' + $(window).width()-10 + '"';
+
                     new daum.roughmap.Lander({
                         "timestamp" : "1630849784250",
                         "key" : "2795f",
-                        "mapWidth" : "100",
+                        "mapWidth" : width,
                         "mapHeight" : "360"
                     }).render();
                 </script>
