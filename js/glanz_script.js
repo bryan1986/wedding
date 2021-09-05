@@ -604,11 +604,11 @@
 
 
 		/*SkroolR*/
-		if( !device.tablet() && !device.mobile() ) {
+		//if( !device.tablet() && !device.mobile() ) {
 			var s = skrollr.init({
 				forceHeight: false,
 			});
-		}
+		//}
 		
 
 
