@@ -2448,7 +2448,7 @@ ul.mega-menu {
 			margin-bottom: 20px;
 		}
 			.gla_slide_midtitle {
-				font:900 60px/60px 'Nanum Brush Script', cursive;
+				font:100 60px/60px 'Nanum Brush Script', cursive;
 				margin-bottom: 30px;
 			}
 			.gla_slide_title b {
@@ -2850,8 +2850,8 @@ ul.mega-menu {
 	-webkit-background-size: cover;
 	background-size: cover;
 	position: absolute;
-	left: 100;
-	top: 100;
+	left: 0;
+	top: 0;
 }
 	.active .gla_slider_flower_c1 {
 		top: -300px;
