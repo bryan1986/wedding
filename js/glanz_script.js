@@ -622,9 +622,9 @@
 		  $grid.isotope({ filter: filterValue });
 		});
 
-		$(window).resize(function(){
-		  $grid.isotope('layout');
-		});
+		// $(window).resize(function(){
+		//   $grid.isotope('layout');
+		// });
 
 		
 
@@ -667,23 +667,23 @@
 			});
 		}
 
-		$(window).resize(function() {
-			if( !device.tablet() && !device.mobile() ) {
-				$('.gla_auto_height').each(function(){
-					setEqualHeight($(this).find('> div[class^="col"]'));
-				});
-			}
-			if( device.tablet() && device.landscape() ) {
-				$('.gla_auto_height').each(function(){
-					setEqualHeight($(this).find('> div[class^="col"]'));
-				});
-			}
-			if( device.tablet() && device.portrait() ) {
-				$('.gla_auto_height').each(function(){
-					$(this).find('> div[class^="col"]').height('auto');
-				});
-			}
-		});
+		// $(window).resize(function() {
+		// 	if( !device.tablet() && !device.mobile() ) {
+		// 		$('.gla_auto_height').each(function(){
+		// 			setEqualHeight($(this).find('> div[class^="col"]'));
+		// 		});
+		// 	}
+		// 	if( device.tablet() && device.landscape() ) {
+		// 		$('.gla_auto_height').each(function(){
+		// 			setEqualHeight($(this).find('> div[class^="col"]'));
+		// 		});
+		// 	}
+		// 	if( device.tablet() && device.portrait() ) {
+		// 		$('.gla_auto_height').each(function(){
+		// 			$(this).find('> div[class^="col"]').height('auto');
+		// 		});
+		// 	}
+		// });
 		
 		
 	});
